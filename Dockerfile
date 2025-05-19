@@ -18,3 +18,6 @@ EXPOSE 8080
 
 # Set environment variables
 ENV NODE_ENV=production
+
+# Start the application
+CMD ["npm", "start"]
