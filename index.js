@@ -25,7 +25,7 @@ if (!process.env.LIVEKIT_URL || !process.env.LIVEKIT_API_KEY || !process.env.LIV
 
 const app = express();
 // Force port 3002 for consistency with the frontend
-const PORT = 3002;
+const PORT = 8080;
 
 // Apply request logging middleware
 app.use(requestLogger);
